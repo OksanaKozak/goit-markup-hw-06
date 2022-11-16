@@ -27,6 +27,10 @@ ul {
 }
 
 /* -----------------header--------------- */
+.page-header {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 ul {
   list-style: none;
 }
@@ -82,32 +86,54 @@ ul {
 /*---------------------main------------------*/
 .top {
   background-color: #2f303a;
+  text-align: center;
+  
 }
 .top-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1,36;
   color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .button {
+  display: inline-block;
+  min-width: 216px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1,87;
-  color: #810d0d;
+  color: #ffffff;
+  padding: 10px 32px;
   background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+.visualli-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.priorities {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .priorities-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1,14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .priorities-text {
+
   font-size: 14px;
   line-height: 1,7;
   letter-spacing: 0.03em;
@@ -118,12 +144,18 @@ ul {
   font-size: 36px;
   line-height: 1,17;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.work-img {
+  margin-bottom: 94px;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1,17;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .team-name {
   font-weight: 500;
