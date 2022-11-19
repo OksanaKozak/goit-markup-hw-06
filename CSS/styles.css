@@ -69,26 +69,28 @@ ul {
 .accent {
   color: var(--brand-color)
 }
-
-.sait-nav {
+.link {
   text-decoration: none;
+color: inherit;
+}
+.sait-nav {
   display: block;
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1,14;
   letter-spacing: 0.02em;
-  color: #212121;
+  
   padding-top: 32px;
   padding-bottom: 32px;
   margin-right: 50px;
 }
-.item {
-  text-decoration: none;
+.header-list .sait-nav:last-child {
+  margin: 0;
 }
-.sait-nav.current {
+
+/* .sait-nav.current {
   color: var(--brand-color);
-}
+} */
 .auth-nav {
   display: block;
   font-weight: 500;
@@ -107,9 +109,10 @@ ul {
 .logo:focus {
   color: var(--brand-color);
 }
-.sait-nav:hover,
-.sait-nav:focus {
+.link:hover,
+.link:focus {
   color: var(--brand-color);
+  /* cursor: pointer; */
 }
 .auth-nav:hover,
 .auth-nav:focus {
@@ -178,6 +181,7 @@ ul {
   color: var(--color-text-two);
   max-width: 270px;
 }
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
