@@ -23,18 +23,38 @@ ul {
 .container {
   width: 1200px;
   padding: 0px 15px;
-  margin: 0 auto;
+  margin: 0px auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: aquamarine;
+}
+img {
+  display: block;
+}
+/* -----------------header--------------- */
+header .container,
+.header-nav,
+.header-list,
+.header-cont-list {
+  display: flex;
 }
 
-/* -----------------header--------------- */
+.header-cont {
+  margin-left: auto;
+}
 .page-header {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ECECEC;
+  background-color: aquamarine;
 }
 ul {
   list-style: none;
 }
 .logo {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -42,35 +62,53 @@ ul {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .accent {
   color: var(--brand-color)
 }
-.site-nav {
+
+.sait-nav {
+  text-decoration: none;
+  display: block;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1,14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+}
+.item {
   text-decoration: none;
 }
-.site-nav.current {
+.sait-nav.current {
   color: var(--brand-color);
 }
 .auth-nav {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-text-two);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.tel {
+  margin-left: 50px;
 }
 .logo:hover,
 .logo:focus {
   color: var(--brand-color);
 }
-.site-nav:hover,
-.site-nav:focus {
+.sait-nav:hover,
+.sait-nav:focus {
   color: var(--brand-color);
 }
 .auth-nav:hover,
@@ -87,19 +125,18 @@ ul {
 .top {
   background-color: #2f303a;
   text-align: center;
-  
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .top-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1,36;
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .button {
-  display: inline-block;
-  min-width: 216px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -110,6 +147,9 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  display: inline-block;
+  min-width: 216px;
+  height: 50px;
 }
 .visualli-hidden {
   position: absolute;
@@ -121,9 +161,8 @@ ul {
   white-space: nowrap;
   overflow: hidden;
 }
-.priorities {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.priopitet-list {
+  display: flex;
 }
 .priorities-title {
   font-weight: 700;
@@ -133,11 +172,11 @@ ul {
   margin-bottom: 10px;
 }
 .priorities-text {
-
   font-size: 14px;
   line-height: 1,7;
   letter-spacing: 0.03em;
-  color: var(--color-text-two)
+  color: var(--color-text-two);
+  max-width: 270px;
 }
 .work-title {
   font-weight: 700;
@@ -147,21 +186,24 @@ ul {
   text-align: center;
   margin-bottom: 50px;
 }
-.work-img {
-  margin-bottom: 94px;
-}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1,17;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
+}
+.team-img {
+  margin-bottom: 30px;
 }
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,18;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .team-profession {
   font-size: 16px;
@@ -173,7 +215,9 @@ ul {
 /* --------------------footer----------------- */
 .contacts {
   background-color: #2f303a;
-}
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
 .logo-contacts {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -182,10 +226,12 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
 }
 .accent {
-  color: var(--brand-color)
-}
+  color: var(--brand-color);
+ }
 .contacts-address {
   font-size: 14px;
   line-height: 1.71;
@@ -193,7 +239,7 @@ ul {
   color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
-}
+ }
 .contacts-mail,
 .contacts-tel {
   font-size: 14px;
@@ -202,7 +248,11 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-}
+ }
+.contacts-mail {
+  margin-top: 9px;
+  margin-bottom: 9px;
+ }
 .contacts-mail:hover,
 .contacts-mail:focus {
   color: var(--brand-color)
