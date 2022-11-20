@@ -292,21 +292,22 @@ color: inherit;
   justify-content: center;
   margin-bottom: 34px;
  }
-.portfolio-filter .button-filter {
+.portfolio-filter .portfolio-button-filter {
   margin-right: 8px;
 }
-.portfolio-filter .button-filter:last-child {
+.portfolio-filter .portfolio-button-filter:last-child {
   margin: 0;
 }
 .portfolio-button-filter {
   display: inline-block;
-  padding: 6px 22px;
+
 }
 .button-filter {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1,62;
+  background: #F5F4FA;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 6px 22px;
@@ -322,10 +323,13 @@ color: inherit;
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-list {
+.border {
   border-width: 1px;
   border-color: #EEEEEE;
   border-style: solid;
+}
+.portfolio-list {
+  
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
