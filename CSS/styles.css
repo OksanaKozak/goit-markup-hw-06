@@ -209,6 +209,11 @@ color: inherit;
 .team-list .team-itam:last-child {
   margin: 0;
 }
+.team-itam {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -217,21 +222,22 @@ color: inherit;
   text-align: center;
   margin-bottom: 50px;
 }
-.team-img {
-  margin-bottom: 30px;
-}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,18;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  margin: 30px auto 10px;
+  text-align: center;
 }
 .team-profession {
   font-size: 16px;
   line-height: 1,18;
   letter-spacing: 0.03em;
-  color: var(--color-text-two)
+  color: var(--color-text-two);
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* --------------------footer----------------- */
