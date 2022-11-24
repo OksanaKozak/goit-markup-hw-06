@@ -126,31 +126,22 @@ color: inherit;
 /*---------------------main------------------*/
 
 .top {
-  /* background-color: #2f303a; */
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url('../images/hero-min.jpg'), url('//images/Bg.png');
+  background: #C4C4C4;
+  background-image: url('//images/Bg.png'), url('../images/hero-min.jpg');
   background-size: 1600px 600px;
   background-repeat: no-repeat;
   background-position: center;
+ 
 }
 .team-soc-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.soc-items {
-  width: 44px;
-  height: 44px;
-}
-.soc-items:not(:last-child) {
-  margin-right: 10px;
-}
-.soc-link link {
-  width: 100%;
-  height: 100%;
-}
+
 .top-title {
   font-weight: 900;
   font-size: 44px;
@@ -260,6 +251,31 @@ color: inherit;
   color: var(--color-text-two);
   margin-bottom: 30px;
   text-align: center;
+}
+.soc-items {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 30px;
+  
+}
+.soc-items:not(:last-child) {
+  margin-right: 10px;
+}
+.soc-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+ 
+}
+.soc-link:hover {
+  background-color: var(--brand-color);
+ }
+
+.soc-link:hover .soc-icons {
+  fill: #FFFFFF;
 }
 
 /* --------------------footer----------------- */
