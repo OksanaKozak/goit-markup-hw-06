@@ -32,16 +32,19 @@
           <div class="header-cont">
             <ul class="header-cont-list">
               <li class="auth-nav">
-                <a href="mailto:info@devstudio.com"><svg width="16" heigth="12" class="auth-icons">
+                <svg width="16" heigth="12" class="auth-icons">
                   <use href="./images/icons.svg#icon-envelope"></use>
                   </svg>
-                </a>info@devstudio.com
+              </li>
+              <li class="auth-nav">
+                <a href="mailto:info@devstudio.com" class="link auth-nav-link">info@devstudio.com
+                </a>
               </li>
               <li class="auth-nav tel">
-                <a href="tel:+380961111111"><svg width="10" heigth="16" class="auth-icons">
+                <a href="tel:+380961111111" class="link auth-nav-link"><svg width="10" heigth="16" class="auth-icons">
                   <use href="./images/icons.svg#icon-tel"></use>
-                  </svg>
-                </a>+38 096 111 11 11
+                  </svg>+38 096 111 11 11
+                </a>
               </li>
             </ul>
           </div>
@@ -59,30 +62,13 @@
 
       <section class="priorities section">
         <div class="container">
-          <div class="thumb">
-            <ul class="thumb-list">
-              <li class="thumb-icons"><svg>
-                <use href="./images/icons.svg#icon-antenna" width="65" heigth="70"></use> 
-                </svg>
-              </li>
-
-              <li class="thumb-icons"><svg>
-                <use href="./images/icons.svg#icon-clock" width="67" heigth="70"></use> 
-                </svg>
-              </li>
-              <li class="thumb-icons"><svg>
-                <use href="./images/icons.svg#icon-diagram" width="67" heigth="70"></use> 
-                </svg>
-              </li>
-              <li class="thumb-icons"><svg>
-                <use href="./images/icons.svg#icon-astronaut" width="67" heigth="70"></use> 
-                </svg>
-              </li>
-            </ul>
-          </div>
           <h2 class="visualli-hidden">Наши приеритеты</h2>
           <ul class="priopitet-list">
             <li class="prioritet-item">
+              <div class="thumb"><svg>
+                <use href="./images/icons.svg#icon-antenna" width="65" heigth="70" class="icon"></use> 
+                </svg>
+              </div>
               <h3 class="priorities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="priorities-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -90,6 +76,10 @@
               </p>
             </li>
             <li class="prioritet-item">
+              <div class="thumb"><svg>
+                <use href="./images/icons.svg#icon-clock" width="67" heigth="70"></use> 
+                </svg>
+              </div>
               <h3 class="priorities-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="priorities-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне
@@ -97,12 +87,20 @@
               </p>
             </li>
             <li class="prioritet-item">
+              <div class="thumb"><svg>
+                <use href="./images/icons.svg#icon-diagram" width="67" heigth="70"></use> 
+                </svg>
+              </div>
               <h3 class="priorities-title">ПЛАНУВАННЯ</h3>
               <p class="priorities-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="prioritet-item">
+              <div class="thumb"><svg>
+                <use href="./images/icons.svg#icon-astronaut" width="67" heigth="70"></use> 
+                </svg>
+              </div>
               <h3 class="priorities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="priorities-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -279,6 +277,43 @@
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section class="clients section">
+        <div class="container">
+          <h3 class="clients-hidden">Постійні клієнти</h3>
+          <ul class="clients-list">
+            <li class="clients-items">
+              <a href="#" class="clients-link link"><svg class="client-icon" width="41" heigth="47"><use href="./images/icons.svg#icon-logo1"></use> 
+                </svg>
+              </a>
+            </li>
+            <li class="clients-items">
+              <a href="#" class="clients-link link"><svg class="client-icon" width="38" heigth="34"><use href="./images/icons.svg#icon-logo2"></use> 
+              </svg>
+              </a>
+            </li>
+            <li class="clients-items">
+              <a href="#" class="clients-link link"><svg class="client-icon" width="43" heigth="41"><use href="./images/icons.svg#icon-logo3"></use> 
+                </svg>
+              </a>
+            </li>
+            <li class="clients-items">
+              <a href="#" class="clients-link link"><svg class="client-icon" width="84" heigth="40"><use href="./images/icons.svg#icon-logo4"></use> 
+                </svg>
+              </a>
+            </li>
+            <li class="clients-items">
+              <a href="#" class="clients-link link"><svg class="client-icon" width="62" heigth="45"><use href="./images/icons.svg#icon-logo5"></use> 
+                </svg>
+              </a>
+            </li>
+            <li class="clients-items">
+              <a href="#" class="clients-link link"><svg class="client-icon" width="94" heigth="44"><use href="./images/icons.svg#icon-logo6"></use> 
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
