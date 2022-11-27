@@ -35,10 +35,10 @@ img {
   display: block;
 }
 /* -----------------header--------------- */
-header .container,
+/* header .container, */
 .header-nav,
 .header-list,
-.header-cont,
+/* .header-cont, */
 .header-cont-list,
 .auth-nav {
   display: flex;
@@ -51,8 +51,8 @@ header .container,
   background-color: #ffffff;
   width: 1600px;
   height: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .logo {
@@ -92,29 +92,26 @@ header .container,
 .sait-nav.current {
   color: var(--brand-color);
 }
-.header-cont {
-  margin-left: auto;
-}
-.auth-nav {
+.header-cont-list {
   display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.auth-nav-link {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-text-two);
-  padding-top: 32px;
-  padding-bottom: 32px;
-  }
-.auth-nav-link {
-  display: flex;
-  align-items: center;
- 
 }
-.auth-icons {
-  display: flex;
-  align-items: center;
-  color: var(--color-text-two);
-}
+
 .tel {
   margin-left: 50px;
 }
