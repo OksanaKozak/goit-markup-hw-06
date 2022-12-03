@@ -542,6 +542,7 @@ img {
 }
 .portfolio-list {
   width: calc((100% - 60px) / 3);
+  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -567,7 +568,15 @@ img {
 .portfolio-text-modal:hover {
   opacity: 1;
 }
-
+.portfolio-link::after {
+  content: "";
+  display: inline-block;
+  width: 370px;
+  transform: translateY(-50%);
+}
+.portfolio-link:hover::after {
+  transform: translateY(-70%);
+}
 
 .portfolio-list:nth-child(3n) {
   margin-right: 0;
