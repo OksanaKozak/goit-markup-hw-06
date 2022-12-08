@@ -381,7 +381,7 @@
             <div class="form-footer-field">
               <label for="mail" class="form-label"></label>
               <input type="email" class="form-input" name="mail" id="mail">
-              <button type="submit" class="button-footer">Підписатися<svg width="24" height="24" class="">
+              <button type="submit" class="button-footer">Підписатися<svg width="24" height="24" class="footer-svg">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg></button>
             </div>
@@ -390,18 +390,20 @@
         </div>
       </div>
     </footer>
-    
+    <!-- ------ Модальное окно--- -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button-svg" data-modal-close><svg width="11" height="11" class="modal-icon"><use href="./images/icons.svg#icon-close-black-18dp"></use></svg></button>
         <p>Залиште свої дані, ми вам передзвонимо</p>
         <form class="form-mod">
           <div class="form-field-mod">
-            <svg width="18" height="18" class="form-modal-icon">
-              <use href="./images/icons.svg#icon-name"></use>
-            </svg>
             <label for="name" class="form-label-mod">Ім'я</label>
             <input type="text" class="form-input-mod" name="name" id="name">
+            <svg width="18" height="18"
+              class="form-modal-icon">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
           </div>
           <div class="form-field-mod">
             <label for="tel" class="form-label-mod">Телефон</label>
