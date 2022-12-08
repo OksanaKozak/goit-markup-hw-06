@@ -702,6 +702,7 @@ h4 {
   padding-bottom: 4px;
 }
 .form-label-policy {
+  display: flex;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -713,11 +714,21 @@ h4 {
 }
 .form-input-mod {
   height: 40px;
+  position: relative;
 }
 textarea {
   resize: none;
   padding: 12px 16px;
   height: 120px;
+}
+.form-field-mod {
+  position: relative;
+}
+.form-modal-icon {
+  position: absolute;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  left: 12px;
 }
 .form-field-mod textarea::placeholder {
   font-family: 'Roboto';
@@ -731,6 +742,10 @@ textarea {
 .form-field-mod input[type="checkbox"] {
   width: 16px;
   height: 15px;
+}
+.form-checkbox {
+  display: flex;
+  background: #212121;
 }
 .modal-button {
   color: #FFFFFF;
