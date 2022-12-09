@@ -695,10 +695,7 @@ h4 {
 .modal-button-svg:hover {
   fill: var(--brand-color);
 }
-.modal-icon {
 
-
-}
 .modal p {
   font-family: 'Roboto';
   font-style: normal;
@@ -710,6 +707,7 @@ h4 {
   padding-bottom: 12px;
 }
 .form-field-mod {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
