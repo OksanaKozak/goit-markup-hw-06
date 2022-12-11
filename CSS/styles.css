@@ -671,9 +671,13 @@ h4 {
   transform: translate(-50%, -50%) scaleY(0);
 }
 .modal-button-svg {
+  display: flex;
   position: absolute;
-  top: 8px;
-  right: 8px;
+  justify-content: center;
+  align-items: center;
+  top: 9px;
+  right: 9px;
+  padding: 0;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -683,6 +687,9 @@ h4 {
 .modal-button-svg:focus,
 .modal-button-svg:hover {
   fill: var(--brand-color);
+}
+.modal-icon {
+ width: 100%;
 }
 .modal p {
   font-family: 'Roboto';
